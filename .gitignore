@@ -1,0 +1,85 @@
+# ============================================================
+# .gitignore — Intel Scene Classification
+# ============================================================
+
+# --- Dataset (never commit raw data to git) ---
+data/
+*.zip
+*.tar.gz
+
+# --- Model checkpoints and saved models ---
+results/checkpoints/
+*.keras
+*.h5
+*.pb
+
+# --- Generated results (plots, metrics) ---
+# Uncomment the lines below if you want to exclude generated outputs.
+# Keep them tracked by default so the repo shows example results.
+# results/plots/
+# results/metrics/
+# results/gradcam/
+# results/training_history.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Kaggle credentials (NEVER commit) ---
+kaggle.json
+.kaggle/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset
+data/
+
+# Trained models
+*.keras
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+results/checkpoints/
+results/gradcam/
+results/plots/
+results/metrics/
