@@ -110,7 +110,11 @@ The model includes:
 
 
 
-<img src="assets/training\_curves.png" width="800"/>
+<p align="center">
+
+&#x20; <img src="assets/training\_curves.png" width="800">
+
+</p>
 
 
 
@@ -122,7 +126,11 @@ The model includes:
 
 
 
-<img src="assets/confusion\_matrix.png" width="700"/>
+<p align="center">
+
+&#x20; <img src="assets/confusion\_matrix.png" width="700">
+
+</p>
 
 
 
@@ -134,7 +142,11 @@ The model includes:
 
 
 
-<img src="assets/per\_class\_f1.png" width="700"/>
+<p align="center">
+
+&#x20; <img src="assets/per\_class\_f1.png" width="700">
+
+</p>
 
 
 
@@ -148,37 +160,73 @@ The model includes:
 
 \### Buildings
 
-<img src="assets/buildings\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/buildings\_gradcam.png" width="700">
+
+</p>
 
 
 
 \### Forest
 
-<img src="assets/forest\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/forest\_gradcam.png" width="700">
+
+</p>
 
 
 
 \### Glacier
 
-<img src="assets/glacier\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/glacier\_gradcam.png" width="700">
+
+</p>
 
 
 
 \### Mountain
 
-<img src="assets/mountain\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/mountain\_gradcam.png" width="700">
+
+</p>
 
 
 
 \### Sea
 
-<img src="assets/sea\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/sea\_gradcam.png" width="700">
+
+</p>
 
 
 
 \### Street
 
-<img src="assets/street\_gradcam.png" width="700"/>
+
+
+<p align="center">
+
+&#x20; <img src="assets/street\_gradcam.png" width="700">
+
+</p>
 
 
 
@@ -276,46 +324,6 @@ cd intel-scene-classification
 
 
 
-Create virtual environment:
-
-
-
-```bash
-
-python -m venv venv
-
-```
-
-
-
-Activate environment:
-
-
-
-\### Windows
-
-
-
-```bash
-
-venv\\Scripts\\activate
-
-```
-
-
-
-\### Linux / macOS
-
-
-
-```bash
-
-source venv/bin/activate
-
-```
-
-
-
 Install dependencies:
 
 
@@ -333,18 +341,6 @@ pip install -r requirements.txt
 
 
 \## Usage
-
-
-
-Download dataset:
-
-
-
-```bash
-
-kaggle datasets download -d puneet6060/intel-image-classification -p data
-
-```
 
 
 
@@ -404,8 +400,6 @@ python src/gradcam.py
 
 \- Jupyter Notebook
 
-\- Git \& GitHub
-
 
 
 \---
@@ -416,13 +410,13 @@ python src/gradcam.py
 
 
 
-\- Transfer learning with EfficientNet/ResNet50
-
-\- TensorBoard integration
+\- Transfer learning with EfficientNet
 
 \- Hyperparameter optimization
 
-\- Mixed precision GPU training
+\- TensorBoard integration
+
+\- Mixed precision training
 
 \- Streamlit deployment
 
@@ -443,16 +437,4 @@ Pranjal Wala
 GitHub:  
 
 https://github.com/pranjalwala
-
-
-
-\---
-
-
-
-\## License
-
-
-
-Released under the MIT License.
 
