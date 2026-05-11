@@ -38,9 +38,7 @@ env/
 .venv/
 ENV/
 
-# --- Jupyter ---
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+
 
 # --- IDEs ---
 .vscode/
@@ -61,22 +59,26 @@ desktop.ini
 *.log
 logs/
 
-# Virtual environment
-venv/
-
 # Python cache
 __pycache__/
 *.pyc
 
-# Dataset
-data/
-
-# Trained models
-*.keras
-*.h5
-
 # Jupyter
 .ipynb_checkpoints/
+
+# Virtual environments
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow logs
+logs/
+
+# Large training artifacts
+*.h5
+*.keras
 
 # Generated outputs
 results/checkpoints/
